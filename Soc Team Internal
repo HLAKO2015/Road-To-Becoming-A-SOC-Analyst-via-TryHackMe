@@ -1,0 +1,17 @@
+SOC level 1 Alert Triage
+
+# Difference between Events and Alerts
+
+Events are any recorded activity that happens in a system or network, it simply means something has occured.
+
+Examples of events include:
+1. File created
+2. Failed login attempt
+3. USB cable plugged in
+4. User X has successfully logged in.
+
+Alerts are events that look suspicious and might some investigations.
+
+Example of Alerts:
+1. 7 failed login attempts
+2. Failed login at a new suspicious IP Address
