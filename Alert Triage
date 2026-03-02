@@ -1,0 +1,12 @@
+# Steps taken when triaging an alert
+
+ Prioritise the alert and select first
+ Assign you name to the alert
+ Move the alert to "In progress"
+ Read the alert name and description
+ Take note of alert fields like IP, User, Host
+ Open the SIEM Tool (Splunk or Microsoft Sentinel)
+ Investigate and make your final verdict
+ Escalate to higher levels if neccessary
+ Add your comment
+ Move the alert to "closed"
