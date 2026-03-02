@@ -1,0 +1,23 @@
+# Alert Properties
+
+Time : Shows when the alert was created
+Name : Summary of what happened
+Severity : Defines the urgency of the alert as low, medium or high
+Status : Informs someone working on the alert, if the alert was triaged or not
+Verdict : Determine if it's a true positive ( Real threat) or false positive (No threat)
+Assignee : The anlyst that was assigned to the alert
+Description : Here the assignee tells us what was the alert about and how he triaged the alert
+
+
+# Allert Prioritisation
+
+Using any SIEM tool or EDR
+
+1. Filter your alerts :
+Don't take alerts that are already reviewed, take only new, yet unseen and unresolved alerts.
+
+2. Sort by severity :
+Start with critical, high, medium and finally low alerts, because major threats cause more damage than medium low threats.
+
+3.Sort by time : 
+Start with the oldest alert and end with the newest alerts.
